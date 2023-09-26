@@ -30,7 +30,7 @@ header > div{
     padding: 4rem;
 }
 
-ul{
+.list{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -51,8 +51,29 @@ ul{
 }
 
 .search{
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 4rem;
+    gap: 1rem;
+}
+
+.search > input{
+    padding: 0.5rem;
+    height: 3rem;
+}
+
+.button{
+    height: 3rem;
+    padding: 0.5rem;
+}
+
+.song > h2{
+    text-align: center;
+}
+
+img{
+    height: 7rem;
+    width: 7rem;
 }

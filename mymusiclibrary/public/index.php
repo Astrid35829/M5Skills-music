@@ -1,3 +1,10 @@
+<?php
+    require_once('../source/config.php');
+
+    require_once('../source/data.php');
+?>  
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -10,60 +17,28 @@
     <header>
         <h1>My Music Library</h1>
         <div>
-            <button>Algemene Voorwaarden</button>
-            <button>Systeem Informatie</button>
+            <button class="button">Terms and Conditions</button>
+            <button class="button">System Information</button>
         </div>
     </header>
     <main>
-        <section class="songs">
-            <nav>
-                <ul>
-                    <li class="song">
-                        <p class="song__name">Angels</p>
-                        <p class="song__artist">All Good Things</p>
-                    </li>
-                    <li class="song">
-                        <p class="song__name">Supernova</p>
-                        <p class="song__artist">From Fall To Spring</p>
-                    </li>
-                    <li class="song">
-                        <p class="song__name">Echo</p>
-                        <p class="song__artist">Starset</p>
-                    </li>
-                    <li class="song">
-                        <p class="song__name">Supercollide
-                        </p>
-                        <p class="song__artist">BANNNERS</p>
-                    </li>
-                    <li class="song">
-                        <p class="song__name">Weight of the world</p>
-                        <p class="song__artist">Self Deception</p>
-                    </li>
-                    <li class="song">
-                        <p class="song__name">Madhouse</p>
-                        <p class="song__artist">Citizen Soldier</p>
-                    </li>
-                    <li class="song">
-                        <p class="song__name">Dull knives</p>
-                        <p class="song__artist">Imagine Dragons</p>
-                    </li>
-                    <li class="song">
-                        <p class="song__name">Save Me</p>
-                        <p class="song__artist">Bruno Martini, AVIAN GRAYS, Mayra, TRIXL</p>
-                    </li>
-                </ul>
-            </nav>
-        </section>
         <section class="search">
             <input type="text" placeholder="Search for a product here..." class="searchBar__input">
-            <button>Search</button>
+            <button class="search__button button">Search</button>
         </section>
+        <section class="list">
+            <?php
+                foreach($library as $single){
+                    include('../source/view/card.php');
+                }     
+                
+                for ($i=0; $i < 9; $i++){
+                    include('../source/view/card.php');
+                }
+            ?>
+        </section>
+        
     </main>
 </body>
 </html>
 
-<?php
-    for($i=0; $i<10; $i++){
-        //haal hier de view/card.php op
-    }
-?>

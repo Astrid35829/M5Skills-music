@@ -10,7 +10,7 @@ services:
       dockerfile: ./docker/php/dockerfile
       context: .
     volumes:
-      - './public/:/var/www/html'
+      - './:/var/www/html'
     depends_on:
       - mariadb
 
@@ -23,7 +23,7 @@ services:
     links:
       - 'php'
     volumes:
-      - './public/:/var/www/html'
+      - './:/var/www/html'
       - './docker/nginx:/etc/nginx/conf.d'
     depends_on:
       - php
