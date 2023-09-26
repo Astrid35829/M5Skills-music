@@ -1,0 +1,58 @@
+*, *::before, *::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    background: lightblue;
+}
+
+header{
+    height: 5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: lightgoldenrodyellow;
+    padding: 4rem;
+}
+
+header > div{
+    display: flex;
+    gap: 2rem;
+}
+
+.songs{
+    padding: 4rem;
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    list-style: none;
+    flex-wrap: wrap;
+}
+
+.song{
+    width: 20rem;
+    height: 25rem;
+    border: 0.2rem solid black;
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+}
+
+.search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem;
+}
