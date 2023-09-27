@@ -10,6 +10,7 @@ html{
 
 body{
     background: lightblue;
+    font-family: sans-serif;
 }
 
 header{
@@ -26,8 +27,20 @@ header > div{
     gap: 2rem;
 }
 
-.songs{
-    padding: 4rem;
+.logo{
+    height: 3rem;
+    width: 30rem;
+    text-decoration: none;
+    font-size: 2rem;
+    color: black;
+}
+
+.logo:visted{
+    color: black;
+}
+
+.logo:hover{
+    cursor: pointer;
 }
 
 .list{
@@ -37,18 +50,9 @@ header > div{
     gap: 2rem;
     list-style: none;
     flex-wrap: wrap;
+    padding: 4rem;
 }
 
-.song{
-    width: 20rem;
-    height: 25rem;
-    border: 0.2rem solid black;
-    font-size: 1.5rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 1rem;
-}
 
 .search{
     width: 100%;
@@ -73,7 +77,58 @@ header > div{
     text-align: center;
 }
 
+.song p{
+    text-align: center;
+}
+
 img{
     height: 7rem;
     width: 7rem;
+}
+
+.song{
+    width: 30rem;
+    height: 30rem;
+    border: 0.2rem solid black;
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3rem;
+    background: lightpink;
+}
+
+.a__button{
+    height: 5rem;
+    width: 15rem;
+    border: 0.2 solid black;
+    background: lightgreen;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.5rem;
+    font-size: 1.4rem;
+    text-decoration: none;
+    color: black;
+    padding: 0.5rem;
+}
+
+.a__button:hover{
+    cursor: pointer;
+}
+
+.a__button:visited{
+    color: black;
+}
+
+.terms{
+    font-size: 2rem;
+}
+
+footer{
+    height: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: lightsalmon;
 }

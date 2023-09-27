@@ -15,10 +15,10 @@
 </head>
 <body>
     <header>
-        <h1>My Music Library</h1>
+        <a class="logo" href="index.php">My Music Library</a>
         <div>
-            <button class="button">Terms and Conditions</button>
-            <button class="button">System Information</button>
+            <a class="a__button" href="terms.php">Terms and Conditions</a>
+            <a class="a__button">System Information</a>
         </div>
     </header>
     <main>
@@ -30,15 +30,14 @@
             <?php
                 foreach($library as $single){
                     include('../source/view/card.php');
-                }     
-                
-                for ($i=0; $i < 9; $i++){
-                    include('../source/view/card.php');
                 }
             ?>
         </section>
         
     </main>
+    <footer>
+        made by Astrid Prins SD2D 2023/2024
+    </footer>
 </body>
 </html>
 

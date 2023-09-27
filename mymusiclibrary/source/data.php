@@ -7,8 +7,8 @@ $library =
         'titel'   => 'Dull Knives',
         'artist'  => 'Imagine Dragons',
         'age'     => '2021',
-        'image'   => '/images/foto.jpg',
-        'genre'   => 'rock'
+        'image'   => 'img/ImagineDragonsMercuryAct1.webp',
+        'genre'   => 'pop rock, alternative rock, indie rock, indie pop'
         ],
 
         [
@@ -16,8 +16,8 @@ $library =
         'titel'   => 'Put me under',
         'artist'  => 'Grandson',
         'age'     => '2019',
-        'image'   => '/images/foto.jpg',
-        'genre'   => 'rock'
+        'image'   => 'img/grandson.jpg',
+        'genre'   => 'alternative rock, rap rock, alternative hip hop, political hip hop, trap, EDM'
         ],
 
         [
@@ -25,8 +25,8 @@ $library =
         'titel'   => 'Numb',
         'artist'  => 'Linkin Park',
         'age'     => '2003',
-        'image'   => '/images/foto.jpg',
-        'genre'   => 'rock'
+        'image'   => 'img/Linkin_Park_Meteora_Album_Cover.jpg',
+        'genre'   => 'alternative rock, heavy metal, hip hop, electronica, pop'
         ],
 
         [
@@ -34,8 +34,8 @@ $library =
         'titel'   => 'Supernova',
         'artist'  => 'From Fall to Spring',
         'age'     => '2023',
-        'image'   => '/images/foto.jpg',
-        'genre'   => 'rock'
+        'image'   => 'img/fromfalltospring.jpg',
+        'genre'   => 'modern rock, post hardcore, nu metal'
         ],
 
         [
@@ -43,8 +43,8 @@ $library =
         'titel'   => 'Angels',
         'artist'  => 'All Good Things',
         'age'     => '2014',
-        'image'   => '/images/foto.jpg',
-        'genre'   => 'rock'
+        'image'   => 'img/allgoodthings.jpg',
+        'genre'   => 'rock, alternative rock, pop rock, electronic rock, hard rock'
         ],
 
         [
@@ -52,8 +52,8 @@ $library =
         'titel'   => 'Monster made of memories',
         'artist'  => 'Citizen Soldier',
         'age'     => '2022',
-        'image'   => '/images/foto.jpg',
-        'genre'   => 'rock'
+        'image'   => 'img/citizensoldiermonster.jpg',
+        'genre'   => 'rock, alternative rock'
         ],
 
         [
@@ -61,8 +61,8 @@ $library =
         'titel'   => 'Weight Of The World',
         'artist'  => 'Self Deception',
         'age'     => '2018',
-        'image'   => '/images/foto.jpg',
-        'genre'   => 'rock'
+        'image'   => 'img/selfdeception.jpg',
+        'genre'   => 'rock, alternative rock, electronic rock'
         ],
 
         [
@@ -70,8 +70,8 @@ $library =
         'titel'   => 'Sharks',
         'artist'  => 'Imagine Dragons',
         'age'     => '2022',
-        'image'   => '/images/foto.jpg',
-        'genre'   => 'rock'
+        'image'   => 'img/imaginedragonssharks.webp',
+        'genre'   => 'pop rock, alternative rock, indie rock, indie pop'
         ],
 
         [
@@ -79,8 +79,8 @@ $library =
         'titel'   => 'Madhouse',
         'artist'  => 'Citizen Soldier',
         'age'     => '2022',
-        'image'   => '/images/foto.jpg',
-        'genre'   => 'rock'
+        'image'   => 'img/citizensoldiermadhouse.jpg',
+        'genre'   => 'rock, alternative rock'
         ],
 
         [
@@ -89,7 +89,7 @@ $library =
         'artist'  => 'Starset',
         'age'     => '2019',
         'image'   => 'img/starset.jpg',
-        'genre'   => 'rock'
+        'genre'   => 'rock, alternative rock, hardrock, spacerock'
         ]
     ];
 ?>

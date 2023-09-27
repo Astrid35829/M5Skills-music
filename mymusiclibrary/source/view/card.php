@@ -5,7 +5,7 @@
     <br>
     <p><?php echo $single['age']; ?></p>
     <br>
-    <img src="<?php echo $single['image']; ?>" alt="">
+    <img src="<?php echo $single['image']; ?>" alt="Album cover">
     <br>
     <p><?php echo $single['genre']; ?></p>
 </div>
