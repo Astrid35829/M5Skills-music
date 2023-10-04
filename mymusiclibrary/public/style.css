@@ -53,19 +53,51 @@ header > div{
     padding: 4rem;
 }
 
-
-.search{
-    width: 100%;
+.filters{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 4rem;
+    
+}
+.search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
     gap: 1rem;
 }
 
 .search > input{
     padding: 0.5rem;
     height: 3rem;
+}
+
+.search__button:hover{
+    background: lightseagreen;
+}
+
+.dropdown__button{
+    height: 3rem;
+    padding: 0.5rem;
+}
+
+.dropdown-content{
+    display: none;
+    padding: 1rem;
+    background: lightyellow;
+}
+
+.dropdown__button:hover{
+    background: lightseagreen;
+}
+
+.dropdown-content > a{
+    text-decoration: none;
+    padding: 0.5rem;
+}
+
+.dropdown-content > a:visited{
+    color: black;
 }
 
 .button{

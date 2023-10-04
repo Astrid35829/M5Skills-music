@@ -14,7 +14,9 @@
         </div>
     </header>
 <main>
-    
+<?php    
+    include('../source/view/info.php');
+?>
 </main>
 <footer>
     made by Astrid Prins SD2D 2023/2024

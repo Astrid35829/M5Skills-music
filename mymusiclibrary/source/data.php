@@ -8,7 +8,9 @@ $library =
         'artist'  => 'Imagine Dragons',
         'age'     => '2021',
         'image'   => 'img/ImagineDragonsMercuryAct1.webp',
-        'genre'   => 'pop rock, alternative rock, indie rock, indie pop'
+        'genre'   => 'pop',
+        'duration'=> '3:33',
+        'other'   => 'Higher ground, Monster, Giants'
         ],
 
         [
@@ -17,7 +19,9 @@ $library =
         'artist'  => 'Grandson',
         'age'     => '2019',
         'image'   => 'img/grandson.jpg',
-        'genre'   => 'alternative rock, rap rock, alternative hip hop, political hip hop, trap, EDM'
+        'genre'   => 'EDM',
+        'duration'=> '3:12',
+        'other'   => 'All in my head, Overdose, Despicable'
         ],
 
         [
@@ -26,7 +30,9 @@ $library =
         'artist'  => 'Linkin Park',
         'age'     => '2003',
         'image'   => 'img/Linkin_Park_Meteora_Album_Cover.jpg',
-        'genre'   => 'alternative rock, heavy metal, hip hop, electronica, pop'
+        'genre'   => 'rock',
+        'duration'=> '3:05',
+        'other'   => 'In the end, Talking to myself, Lost'
         ],
 
         [
@@ -35,7 +41,9 @@ $library =
         'artist'  => 'From Fall to Spring',
         'age'     => '2023',
         'image'   => 'img/fromfalltospring.jpg',
-        'genre'   => 'modern rock, post hardcore, nu metal'
+        'genre'   => 'rock',
+        'duration'=> '3:44',
+        'other'   => 'Rise, Barriers, Beastmode'
         ],
 
         [
@@ -44,7 +52,9 @@ $library =
         'artist'  => 'All Good Things',
         'age'     => '2014',
         'image'   => 'img/allgoodthings.jpg',
-        'genre'   => 'rock, alternative rock, pop rock, electronic rock, hard rock'
+        'genre'   => 'rock',
+        'duration'=> '4:20',
+        'other'   => 'Fight, For the glory, Love and war'
         ],
 
         [
@@ -53,7 +63,9 @@ $library =
         'artist'  => 'Citizen Soldier',
         'age'     => '2022',
         'image'   => 'img/citizensoldiermonster.jpg',
-        'genre'   => 'rock, alternative rock'
+        'genre'   => 'rock',
+        'duration'=> '3:06',
+        'other'   => 'This is Not a phase, Bitter, Gunshot Lullabies'
         ],
 
         [
@@ -62,7 +74,9 @@ $library =
         'artist'  => 'Self Deception',
         'age'     => '2018',
         'image'   => 'img/selfdeception.jpg',
-        'genre'   => 'rock, alternative rock, electronic rock'
+        'genre'   => 'rock',
+        'duration'=> '3:43',
+        'other'   => 'Stockholm Hearts, Hell and Back, Intoxicated Haze'
         ],
 
         [
@@ -71,7 +85,9 @@ $library =
         'artist'  => 'Imagine Dragons',
         'age'     => '2022',
         'image'   => 'img/imaginedragonssharks.webp',
-        'genre'   => 'pop rock, alternative rock, indie rock, indie pop'
+        'genre'   => 'pop',
+        'duration'=> '3:11',
+        'other'   => 'Bones, Natural, Lonely'
         ],
 
         [
@@ -80,7 +96,9 @@ $library =
         'artist'  => 'Citizen Soldier',
         'age'     => '2022',
         'image'   => 'img/citizensoldiermadhouse.jpg',
-        'genre'   => 'rock, alternative rock'
+        'genre'   => 'rock',
+        'duration'=> '3:28',
+        'other'   => '15 Minutes of Fame, Thank you for hating me, Would anyone care'
         ],
 
         [
@@ -89,7 +107,9 @@ $library =
         'artist'  => 'Starset',
         'age'     => '2019',
         'image'   => 'img/starset.jpg',
-        'genre'   => 'rock, alternative rock, hardrock, spacerock'
+        'genre'   => 'rock',
+        'duration'=> '5:38',
+        'other'   => 'Echo, Waiting on the sky to change, Trials'
         ]
     ];
 ?>

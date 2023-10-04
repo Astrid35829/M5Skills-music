@@ -10,6 +10,8 @@
 <header>
     <h1>My Music Library</h1>
     <div>
+        <a class="a__button" href="index.php">Home</a>
+
         <a class="a__button" href="terms.php">Terms and Conditions</a>
         <a class="a__button">System Information</a>
     </div>
